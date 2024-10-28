@@ -52,7 +52,7 @@ function clockInOut(action) {
   document.getElementById('message').textContent = 'Processing...';
 
   // Construct the URL for Google Apps Script (without employeeName parameter)
-  const url = `https://script.google.com/macros/s/AKfycbwsM7ru7ax0yXwBwt4RQkAipB9tLNWqOTQGPKxuACmrPocdJ4UcjZE0fWCZehJCczU5/exec?action=${action}&timestamp=${encodeURIComponent(timestamp)}`;
+  const url = `https://script.google.com/macros/s/AKfycbwifmWcapbCAgdcTgFsj9nRa0z-RK3Bwnuf6edcGwoUamxV0wGDvEarwxDkUMs0w-tY/exec?action=${action}&timestamp=${encodeURIComponent(timestamp)}`;
 
   // Send a GET request to the Google Apps Script URL
   fetch(url)
