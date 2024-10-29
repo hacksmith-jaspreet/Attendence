@@ -14,7 +14,7 @@
     document.getElementById('message').textContent = 'Processing...';
   
     // Construct the URL for Google Apps Script
-    const url = `https://script.google.com/macros/s/AKfycbwsM7ru7ax0yXwBwt4RQkAipB9tLNWqOTQGPKxuACmrPocdJ4UcjZE0fWCZehJCczU5/exec?employeeName=${encodeURIComponent(employeeName)}&action=${action}&timestamp=${encodeURIComponent(timestamp)}`;
+    const url = `https://script.google.com/macros/s/AKfycbxbKQO-rN3fSIqd4Gh2oJQV4Iru_aCF-XuehHnpMTX1pnkK14gIcaCuR81I4qsFjKFD/exec?employeeName=${encodeURIComponent(employeeName)}&action=${action}&timestamp=${encodeURIComponent(timestamp)}`;
   
     // Send a GET request to the Google Apps Script URL
     fetch(url)
